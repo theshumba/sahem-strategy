@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WildMotion at Zim Parks &amp; Wildlife — Sahem Strategy</title>
+  <meta name="description" content="A data-driven conservation intelligence and operational management system, developed with Zimbabwe Parks and Wildlife Management Authority." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { 'sahem-green': '#0F3D3A', 'sahem-lime': '#C8F8A9', charcoal: '#0E100F', graphite: '#161A18', moss: '#2F3126', olive: '#BBC1A7', ivory: '#F9FFE5', bone: '#F5F2EB' }, fontFamily: { serif: ['Fraunces', 'Georgia', 'serif'], sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230F3D3A'/%3E%3Cpath d='M11 21l5-12 5 12-5-4-5 4z' fill='%23C8F8A9'/%3E%3C/svg%3E" />
+</head>
+<body class="bg-charcoal text-bone">
+
+  <header class="nav">
+    <div class="container-x flex items-center justify-between py-5">
+      <a href="/" class="nav-logo">Sahem Strategy</a>
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/service/" class="nav-link">Services</a>
+        <a href="/case-study/" class="nav-link active">Case Studies</a>
+        <a href="/about/" class="nav-link">About</a>
+        <a href="/contact/" class="nav-link">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="/contact/" class="btn btn-primary hidden md:inline-flex">Get started</a>
+        <button id="nav-open" class="md:hidden text-bone p-1" aria-label="Open menu">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div id="mobile-menu">
+    <button id="nav-close" class="absolute top-5 right-5 text-bone p-1" aria-label="Close menu">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M6 18L18 6"/></svg>
+    </button>
+    <a href="/" class="nav-link">Home</a>
+    <a href="/service/" class="nav-link">Services</a>
+    <a href="/case-study/" class="nav-link">Case Studies</a>
+    <a href="/about/" class="nav-link">About</a>
+    <a href="/contact/" class="nav-link">Contact</a>
+    <a href="/contact/" class="btn btn-primary mt-10 self-start">Get started</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="container-x mt-6">
+    <div class="hero-card hero-pad dot-bg">
+      <a href="/case-study/" class="text-xs-eyebrow text-dim hover:text-bone mb-6 inline-flex items-center gap-2">← All case studies</a>
+      <div class="pill pill-soft mb-6 mt-5 w-fit">Sovereign operational intelligence</div>
+      <h1 class="h1 max-w-4xl">WildMotion at Zimbabwe Parks and Wildlife.</h1>
+      <p class="text-lead text-muted mt-7 max-w-3xl">A data-driven conservation intelligence and operational management system, developed with Zimbabwe Parks and Wildlife Management Authority.</p>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 mt-12 max-w-4xl">
+        <div>
+          <p class="text-xs-eyebrow text-dim mb-2">Client</p>
+          <p class="text-body">Zim Parks &amp; Wildlife</p>
+        </div>
+        <div>
+          <p class="text-xs-eyebrow text-dim mb-2">Industry</p>
+          <p class="text-body">Conservation &amp; wildlife</p>
+        </div>
+        <div>
+          <p class="text-xs-eyebrow text-dim mb-2">Region</p>
+          <p class="text-body">Sub-Saharan Africa</p>
+        </div>
+        <div>
+          <p class="text-xs-eyebrow text-dim mb-2">Duration</p>
+          <p class="text-body">Multi-phase</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGE -->
+  <section class="container-x mt-6">
+    <img src="https://raw.githubusercontent.com/theshumba/sahem-img/main/hwange.jpg" alt="Wildlife observation at Hwange" class="case-img" loading="lazy" />
+  </section>
+
+  <!-- CHALLENGE -->
+  <section class="section">
+    <div class="container-x">
+      <div class="grid lg:grid-cols-12 gap-12">
+        <div class="lg:col-span-4">
+          <div class="pill mb-5">The challenge</div>
+          <h2 class="h3">Fragmented operations, invisible at leadership.</h2>
+        </div>
+        <div class="lg:col-span-8 service-body">
+          <p>Ranger activity, wildlife observations, incident logs, environmental data, and infrastructure status existed across paper logbooks, spreadsheets, and informal communication channels — with no central visibility for leadership and no structured way to compare activity across time or geography.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OVERVIEW -->
+  <section class="section pt-0">
+    <div class="container-x">
+      <div class="grid lg:grid-cols-12 gap-12">
+        <div class="lg:col-span-4">
+          <div class="pill mb-5">Overview</div>
+          <h2 class="h3">The operational intelligence layer for a national authority.</h2>
+        </div>
+        <div class="lg:col-span-8 service-body">
+          <p>WildMotion is the operational intelligence layer that sits between field activity, operational coordination, data management, and strategic oversight inside a national wildlife authority.</p>
+          <p>Conservation organisations across Africa face a structural challenge that is rarely about expertise or commitment — it is about operational fragmentation. Vast geographical territories. Dispersed ranger units. Disconnected reporting systems. Inconsistent data structures. Huge amounts of valuable field information generated daily — patrol activity, animal sightings, poaching indicators, environmental conditions, infrastructure status — that remains isolated, unstructured, and operationally invisible at leadership level.</p>
+          <p>WildMotion was built to close that gap. Not by introducing more technology, but by designing a system that could realistically function within the operational constraints of a national wildlife authority.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section class="section pt-0">
+    <div class="container-x">
+      <div class="grid lg:grid-cols-12 gap-12">
+        <div class="lg:col-span-4">
+          <div class="pill mb-5">Our approach</div>
+          <h2 class="h3">The Sahem Method, applied inside a national agency.</h2>
+          <p class="text-muted text-body mt-5">The project followed the five phases we now run on every sovereign engagement.</p>
+        </div>
+        <div class="lg:col-span-8 grid gap-5">
+          <div class="card p-7 md:p-9">
+            <p class="text-xs-eyebrow text-sahem-lime mb-3" style="color:#C8F8A9">Phase 1</p>
+            <h3 class="h5 mb-3">Observe.</h3>
+            <p class="text-muted text-body">We embedded inside the authority to understand operational reality — workflows, reporting structures, bottlenecks, data handling practices, the gaps that nobody had time to formalise.</p>
+          </div>
+          <div class="card p-7 md:p-9">
+            <p class="text-xs-eyebrow mb-3" style="color:#C8F8A9">Phase 2</p>
+            <h3 class="h5 mb-3">Structure.</h3>
+            <p class="text-muted text-body">We mapped the core data flows. What information existed. Where it originated. How it moved. Where it broke down. What leadership actually needed visibility into. This effectively mapped the operational nervous system of conservation activity.</p>
+          </div>
+          <div class="card p-7 md:p-9">
+            <p class="text-xs-eyebrow mb-3" style="color:#C8F8A9">Phase 3</p>
+            <h3 class="h5 mb-3">Build.</h3>
+            <p class="text-muted text-body">We engineered the data architecture — structured categories, consistent organisational logic, incident classification, operational tagging, geographic referencing, time-based organisation. The unglamorous engineering that determines whether the system survives at all.</p>
+          </div>
+          <div class="card p-7 md:p-9">
+            <p class="text-xs-eyebrow mb-3" style="color:#C8F8A9">Phase 4</p>
+            <h3 class="h5 mb-3">Deploy.</h3>
+            <p class="text-muted text-body">We installed the system inside the wildlife authority. Reporting pathways, visibility systems, information accessibility, process continuity. Crucially — a real deployment inside a constrained public-sector environment, not a prototype in a sandbox.</p>
+          </div>
+          <div class="card p-7 md:p-9">
+            <p class="text-xs-eyebrow mb-3" style="color:#C8F8A9">Phase 5</p>
+            <h3 class="h5 mb-3">Sustain.</h3>
+            <p class="text-muted text-body">WildMotion now functions as institutional memory. A continuously accumulating operational archive that survives staff rotation and leadership change.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE BUILT -->
+  <section class="section pt-0">
+    <div class="container-x">
+      <div class="grid lg:grid-cols-12 gap-12">
+        <div class="lg:col-span-4">
+          <div class="pill mb-5">What we built</div>
+          <h2 class="h3">A layered operational system, not a single application.</h2>
+        </div>
+        <div class="lg:col-span-8 grid gap-5">
+          <div class="card p-7 md:p-9">
+            <h3 class="h6 mb-3">Field collection layer</h3>
+            <p class="text-muted text-body">Structured mechanisms for capturing ranger patrol reports, wildlife observations, incident logs, environmental observations, location-based inputs, and infrastructure status.</p>
+          </div>
+          <div class="card p-7 md:p-9">
+            <h3 class="h6 mb-3">Data structuring layer</h3>
+            <p class="text-muted text-body">Classification structures, incident categorisation, operational tagging, geographic referencing, and time-based organisation that makes records comparable across regions and years.</p>
+          </div>
+          <div class="card p-7 md:p-9">
+            <h3 class="h6 mb-3">Centralised visibility layer</h3>
+            <p class="text-muted text-body">Unified operational visibility for leadership: field activity, operational trends, incident concentration, patrol coverage, historical comparisons, geographic intelligence.</p>
+          </div>
+          <div class="card p-7 md:p-9">
+            <h3 class="h6 mb-3">Decision-support layer</h3>
+            <p class="text-muted text-body">Pattern analysis to surface recurring patterns, operational inefficiencies, ecological pressure points, high-risk areas, gaps in activity coverage, anomalies in reporting.</p>
+          </div>
+          <div class="card p-7 md:p-9">
+            <h3 class="h6 mb-3">Institutional memory layer</h3>
+            <p class="text-muted text-body">A continuously accumulating operational archive that survives staff turnover and becomes a long-term ecological dataset.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section class="section pt-0">
+    <div class="container-x">
+      <div class="pill mb-5">Results</div>
+      <h2 class="h2-sm max-w-3xl mb-12">An operational system designed to be usable, maintainable, and scalable inside the real constraints of a national authority.</h2>
+      <div class="grid md:grid-cols-2 gap-x-12 gap-y-12">
+        <div class="result-block">
+          <h3 class="h5 mb-3">Operational visibility</h3>
+          <p class="text-muted text-body max-w-md">Leadership sees the full estate at a glance, not fragmented reports.</p>
+        </div>
+        <div class="result-block">
+          <h3 class="h5 mb-3">Structured data</h3>
+          <p class="text-muted text-body max-w-md">Records are standardised, searchable, and comparable across time and geography.</p>
+        </div>
+        <div class="result-block">
+          <h3 class="h5 mb-3">Institutional memory</h3>
+          <p class="text-muted text-body max-w-md">A continuously accumulating archive that survives staff rotation, leadership change, and operational shocks.</p>
+        </div>
+        <div class="result-block">
+          <h3 class="h5 mb-3">Evidence-led decisions</h3>
+          <p class="text-muted text-body max-w-md">Conservation management shifted from reactive responses toward evidence-informed operations, strategic resource allocation, and long-term planning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL -->
+  <section class="container-x pb-10">
+    <div class="card p-8 md:p-14">
+      <svg width="48" height="40" viewBox="0 0 48 40" fill="none" class="mb-7" aria-hidden="true">
+        <path d="M0 40V24C0 10.745 9.851 0 22 0v8C13.716 8 7 15.163 7 24h7v16H0zm26 0V24C26 10.745 35.851 0 48 0v8c-8.284 0-15 7.163-15 16h7v16H26z" fill="#C8F8A9" fill-opacity="0.3"/>
+      </svg>
+      <p class="font-serif text-2xl md:text-3xl leading-snug text-bone max-w-4xl">WildMotion proved something we already believed but had not yet demonstrated: that a focused team can build an institutional-grade system inside a constrained public-sector environment when they deeply understand the operational realities. The work was never about software. It was about turning fragmented field activity into structured intelligence that leadership could actually use.</p>
+      <div class="mt-8 pt-8 border-t border-bone/10">
+        <p class="text-body">Melusi Ndoro</p>
+        <p class="text-muted text-sm-body">Founder, Sahem Strategy</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="container-x pb-20">
+    <div class="hero-card hero-pad text-center dot-bg">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="h2">Considering a system like this inside your agency?</h2>
+        <p class="text-lead text-muted mt-6 max-w-xl mx-auto">Every Sahem engagement begins with a ten-day Operational Discovery — embedded, on-site, with a costed pilot proposal at the end.</p>
+        <a href="/contact/" class="btn btn-primary mt-10">Talk to Sahem</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container-x py-16">
+      <div class="grid md:grid-cols-12 gap-10 md:gap-12">
+        <div class="md:col-span-5">
+          <a href="/" class="nav-logo">Sahem Strategy</a>
+          <p class="text-muted text-body mt-4 max-w-sm">Sovereign operational intelligence.</p>
+        </div>
+        <div class="md:col-span-3">
+          <p class="text-xs-eyebrow text-dim mb-4">Sitemap</p>
+          <div class="flex flex-col gap-3">
+            <a href="/service/">Services</a>
+            <a href="/case-study/">Case Studies</a>
+            <a href="/about/">About</a>
+            <a href="/contact/">Contact</a>
+          </div>
+        </div>
+        <div class="md:col-span-4">
+          <p class="text-xs-eyebrow text-dim mb-4">Legal</p>
+          <div class="flex flex-col gap-3"><a href="/privacy/">Privacy</a></div>
+        </div>
+      </div>
+      <div class="divider my-10"></div>
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-3">
+        <p class="text-dim text-sm-body">© 2026 Sahem Strategy. All rights reserved.</p>
+        <p class="text-dim text-sm-body">Operating from Chesham, UK · Delivery teams ready for Riyadh &amp; Madinah.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/script.js" defer></script>
+</body>
+</html>

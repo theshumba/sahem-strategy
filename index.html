@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sahem Strategy — Sovereign Operational Intelligence</title>
+  <meta name="description" content="Sahem Strategy designs and deploys operational intelligence platforms for sovereign agencies — national parks, royal reserves, heritage sites, environmental operations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'sahem-green': '#0F3D3A',
+            'sahem-lime': '#C8F8A9',
+            charcoal: '#0E100F',
+            graphite: '#161A18',
+            moss: '#2F3126',
+            olive: '#BBC1A7',
+            ivory: '#F9FFE5',
+            bone: '#F5F2EB',
+          },
+          fontFamily: {
+            serif: ['Fraunces', 'Georgia', 'serif'],
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230F3D3A'/%3E%3Cpath d='M11 21l5-12 5 12-5-4-5 4z' fill='%23C8F8A9'/%3E%3C/svg%3E" />
+</head>
+<body class="bg-charcoal text-bone">
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container-x flex items-center justify-between py-5">
+      <a href="/" class="nav-logo">Sahem Strategy</a>
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="/" class="nav-link active">Home</a>
+        <a href="/service/" class="nav-link">Services</a>
+        <a href="/case-study/" class="nav-link">Case Studies</a>
+        <a href="/about/" class="nav-link">About</a>
+        <a href="/contact/" class="nav-link">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="/contact/" class="btn btn-primary hidden md:inline-flex">Get started</a>
+        <button id="nav-open" class="md:hidden text-bone p-1" aria-label="Open menu">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div id="mobile-menu">
+    <button id="nav-close" class="absolute top-5 right-5 text-bone p-1" aria-label="Close menu">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M6 18L18 6"/></svg>
+    </button>
+    <a href="/" class="nav-link">Home</a>
+    <a href="/service/" class="nav-link">Services</a>
+    <a href="/case-study/" class="nav-link">Case Studies</a>
+    <a href="/about/" class="nav-link">About</a>
+    <a href="/contact/" class="nav-link">Contact</a>
+    <a href="/contact/" class="btn btn-primary mt-10 self-start">Get started</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="container-x mt-6">
+    <div class="hero-card hero-pad text-center dot-bg">
+      <div class="max-w-4xl mx-auto">
+        <div class="pill mb-8">Sovereign Operational Intelligence</div>
+        <h1 class="h1 text-bone">We build the systems sovereign agencies actually run on.</h1>
+        <p class="text-lead text-muted mt-7 max-w-2xl mx-auto">
+          Sahem designs and deploys operational intelligence platforms for government agencies that need to run their physical estate — national parks, royal reserves, heritage sites, environmental operations. We do not write strategy reports. We build the system.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-3 justify-center mt-10">
+          <a href="/case-study/" class="btn btn-primary">View case studies</a>
+          <a href="/contact/" class="btn btn-outline">Start with discovery</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES PREVIEW -->
+  <section class="section">
+    <div class="container-x">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+        <div>
+          <div class="pill mb-5">Services</div>
+          <h2 class="h2 max-w-2xl">One path from study to deployed system.</h2>
+        </div>
+        <a href="/service/" class="btn btn-outline self-start md:self-auto">View all services</a>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <a href="/service/operational-discovery/" class="card card-link p-5 flex flex-col">
+          <img src="https://raw.githubusercontent.com/theshumba/sahem-service-images/main/1-operational-discovery.png" alt="Operational Discovery" class="w-full h-60 object-cover rounded-2xl" loading="lazy" />
+          <div class="pt-7 px-2 pb-3 flex-1 flex flex-col">
+            <h3 class="h6 mb-4">Operational Discovery</h3>
+            <p class="text-muted text-body mb-7 flex-1">Ten working days embedded inside your operation. We map how reporting and field work actually function, identify the three to five highest-leverage gaps, and deliver a recommendations brief — with a costed pilot proposal attached.</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="pill">10 working days</span>
+              <span class="pill">On-site embed</span>
+              <span class="pill">Recommendations brief</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/service/pilot-deployment/" class="card card-link p-5 flex flex-col">
+          <img src="https://raw.githubusercontent.com/theshumba/sahem-service-images/main/2-pilot-deployment.jpg" alt="Pilot Deployment" class="w-full h-60 object-cover rounded-2xl" loading="lazy" />
+          <div class="pt-7 px-2 pb-3 flex-1 flex flex-col">
+            <h3 class="h6 mb-4">Pilot Deployment</h3>
+            <p class="text-muted text-body mb-7 flex-1">Eight to twelve weeks. We deploy Sahem ReserveOS configured to one reserve, division, or operational layer. A working system inside your institution at the end of the engagement.</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="pill">8–12 weeks</span>
+              <span class="pill">ReserveOS deployed</span>
+              <span class="pill">Single division</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/service/full-platform-build/" class="card card-link p-5 flex flex-col">
+          <img src="https://raw.githubusercontent.com/theshumba/sahem-service-images/main/3-full-platform-build.jpg" alt="Full Platform Build" class="w-full h-60 object-cover rounded-2xl" loading="lazy" />
+          <div class="pt-7 px-2 pb-3 flex-1 flex flex-col">
+            <h3 class="h6 mb-4">Full Platform Build</h3>
+            <p class="text-muted text-body mb-7 flex-1">Six to twelve months. Multi-site operational intelligence platform across your full estate. Integration with your existing systems, multi-tier access, formal training, twelve-month support.</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="pill">6–12 months</span>
+              <span class="pill">Multi-site coverage</span>
+              <span class="pill">Integrated</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/service/ongoing-operational-intelligence/" class="card card-link p-5 flex flex-col">
+          <img src="https://raw.githubusercontent.com/theshumba/sahem-service-images/main/4-ongoing-intelligence.jpg" alt="Ongoing Operational Intelligence" class="w-full h-60 object-cover rounded-2xl" loading="lazy" />
+          <div class="pt-7 px-2 pb-3 flex-1 flex flex-col">
+            <h3 class="h6 mb-4">Ongoing Operational Intelligence</h3>
+            <p class="text-muted text-body mb-7 flex-1">Annual platform stewardship and quarterly insight reviews. The system that evolves with your agency, year over year.</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="pill">Annual support</span>
+              <span class="pill">Quarterly reviews</span>
+              <span class="pill">Platform stewardship</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED CASE STUDY -->
+  <section class="section pt-0">
+    <div class="container-x">
+      <div class="flex items-end justify-between gap-6 mb-12">
+        <div>
+          <div class="pill mb-5">Case studies</div>
+          <h2 class="h2 max-w-3xl">Sovereign systems we've delivered.</h2>
+        </div>
+      </div>
+
+      <a href="/case-study/wildmotion/" class="card card-link block overflow-hidden">
+        <div class="grid lg:grid-cols-2 gap-0">
+          <div class="aspect-[4/3] lg:aspect-auto lg:min-h-[520px]">
+            <img src="https://raw.githubusercontent.com/theshumba/sahem-img/main/hwange.jpg" alt="WildMotion at Zimbabwe Parks and Wildlife" class="w-full h-full object-cover" loading="lazy" />
+          </div>
+          <div class="p-8 md:p-14 flex flex-col justify-center">
+            <div class="pill pill-soft mb-6 w-fit">Sovereign operational intelligence</div>
+            <h3 class="h3 mb-5">WildMotion at Zimbabwe Parks and Wildlife</h3>
+            <p class="text-muted text-body mb-10 max-w-md">An operational intelligence system across a national ranger network — designed to be usable, maintainable, and scalable inside the real constraints of a national authority.</p>
+            <div class="grid grid-cols-2 gap-6 mb-10">
+              <div>
+                <p class="text-xs-eyebrow text-dim mb-1">Client</p>
+                <p class="text-body">Zim Parks &amp; Wildlife</p>
+              </div>
+              <div>
+                <p class="text-xs-eyebrow text-dim mb-1">Region</p>
+                <p class="text-body">Sub-Saharan Africa</p>
+              </div>
+            </div>
+            <span class="text-xs-eyebrow" style="color:#C8F8A9">Read case study →</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section pt-0">
+    <div class="container-x">
+      <div class="grid md:grid-cols-12 gap-10">
+        <div class="md:col-span-5">
+          <div class="pill mb-5">Questions</div>
+          <h2 class="h2-sm mb-6">Frequently asked.</h2>
+          <p class="text-muted text-body max-w-sm">Six questions we hear most often from agencies considering an engagement.</p>
+        </div>
+        <div class="md:col-span-7 faq">
+          <details>
+            <summary>What does Sahem actually do?</summary>
+            <div class="faq-body">We design, build, and deploy the operational intelligence systems that government agencies use to run their physical estate — national parks, royal reserves, heritage sites, environmental operations. Our first delivered engagement was WildMotion at Zimbabwe Parks and Wildlife Management Authority.</div>
+          </details>
+          <details>
+            <summary>Have you done this before?</summary>
+            <div class="faq-body">Yes. WildMotion at Zimbabwe Parks and Wildlife Management Authority — a full operational intelligence system across their national ranger network. It is our first delivered engagement and is in active use today.</div>
+          </details>
+          <details>
+            <summary>How are you different from McKinsey or BCG?</summary>
+            <div class="faq-body">We do not write strategy reports. The top-tier firms will tell you what should be built. We design and build the system itself, then install it inside your agency. We often do the work the strategy firms recommended.</div>
+          </details>
+          <details>
+            <summary>How long does delivery take?</summary>
+            <div class="faq-body">Operational Discovery is ten working days. A pilot deployment is eight to twelve weeks. A full multi-site rollout is six to twelve months depending on scope.</div>
+          </details>
+          <details>
+            <summary>What does this cost?</summary>
+            <div class="faq-body">Discovery is SAR 65K–95K. A pilot is SAR 250K–500K. A full platform build is SAR 1M–3M depending on coverage. Annual operational intelligence support is SAR 200K–500K. Roughly a quarter to a third of comparable Big-4 scope.</div>
+          </details>
+          <details>
+            <summary>Are you Saudi-licensed?</summary>
+            <div class="faq-body">Our MISA application is in progress. Full licensing will be in place ahead of any Saudi contracting. We will not sign engagements with Saudi agencies until we are properly licensed to operate.</div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="container-x pb-20">
+    <div class="hero-card hero-pad text-center dot-bg">
+      <div class="max-w-3xl mx-auto">
+        <div class="pill mb-7">Begin</div>
+        <h2 class="h2">Ready to start? Begin with a ten-day Operational Discovery.</h2>
+        <p class="text-lead text-muted mt-6 max-w-xl mx-auto">No commitment beyond the engagement. A recommendations brief and a costed pilot proposal at the end.</p>
+        <a href="/contact/" class="btn btn-primary mt-10">Talk to Sahem</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container-x py-16">
+      <div class="grid md:grid-cols-12 gap-10 md:gap-12">
+        <div class="md:col-span-5">
+          <a href="/" class="nav-logo">Sahem Strategy</a>
+          <p class="text-muted text-body mt-4 max-w-sm">Sovereign operational intelligence.</p>
+        </div>
+        <div class="md:col-span-3">
+          <p class="text-xs-eyebrow text-dim mb-4">Sitemap</p>
+          <div class="flex flex-col gap-3">
+            <a href="/service/">Services</a>
+            <a href="/case-study/">Case Studies</a>
+            <a href="/about/">About</a>
+            <a href="/contact/">Contact</a>
+          </div>
+        </div>
+        <div class="md:col-span-4">
+          <p class="text-xs-eyebrow text-dim mb-4">Legal</p>
+          <div class="flex flex-col gap-3">
+            <a href="/privacy/">Privacy</a>
+          </div>
+        </div>
+      </div>
+      <div class="divider my-10"></div>
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-3">
+        <p class="text-dim text-sm-body">© 2026 Sahem Strategy. All rights reserved.</p>
+        <p class="text-dim text-sm-body">Operating from Chesham, UK · Delivery teams ready for Riyadh &amp; Madinah.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/script.js" defer></script>
+</body>
+</html>

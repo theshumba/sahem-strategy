@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Sahem Strategy</title>
+  <meta name="description" content="Sahem Strategy is a small operational-intelligence practice. We design and deploy the systems sovereign agencies need to run their physical estate." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { 'sahem-green': '#0F3D3A', 'sahem-lime': '#C8F8A9', charcoal: '#0E100F', graphite: '#161A18', moss: '#2F3126', olive: '#BBC1A7', ivory: '#F9FFE5', bone: '#F5F2EB' }, fontFamily: { serif: ['Fraunces', 'Georgia', 'serif'], sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230F3D3A'/%3E%3Cpath d='M11 21l5-12 5 12-5-4-5 4z' fill='%23C8F8A9'/%3E%3C/svg%3E" />
+</head>
+<body class="bg-charcoal text-bone">
+
+  <header class="nav">
+    <div class="container-x flex items-center justify-between py-5">
+      <a href="/" class="nav-logo">Sahem Strategy</a>
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/service/" class="nav-link">Services</a>
+        <a href="/case-study/" class="nav-link">Case Studies</a>
+        <a href="/about/" class="nav-link active">About</a>
+        <a href="/contact/" class="nav-link">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="/contact/" class="btn btn-primary hidden md:inline-flex">Get started</a>
+        <button id="nav-open" class="md:hidden text-bone p-1" aria-label="Open menu">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div id="mobile-menu">
+    <button id="nav-close" class="absolute top-5 right-5 text-bone p-1" aria-label="Close menu">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M6 18L18 6"/></svg>
+    </button>
+    <a href="/" class="nav-link">Home</a>
+    <a href="/service/" class="nav-link">Services</a>
+    <a href="/case-study/" class="nav-link">Case Studies</a>
+    <a href="/about/" class="nav-link">About</a>
+    <a href="/contact/" class="nav-link">Contact</a>
+    <a href="/contact/" class="btn btn-primary mt-10 self-start">Get started</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="container-x mt-6">
+    <div class="hero-card hero-pad dot-bg">
+      <div class="max-w-4xl">
+        <div class="pill mb-8">About</div>
+        <h1 class="h1">A small practice designed for sovereign work.</h1>
+        <p class="text-lead text-muted mt-7 max-w-2xl">Sahem Strategy is an operational-intelligence practice. We design and deploy the systems sovereign agencies need to run their physical estate — and we deliver them inside the real constraints of public-sector operations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRINCIPLES -->
+  <section class="section">
+    <div class="container-x">
+      <div class="grid lg:grid-cols-12 gap-12">
+        <div class="lg:col-span-4">
+          <div class="pill mb-5">Principles</div>
+          <h2 class="h3">How we work.</h2>
+        </div>
+        <div class="lg:col-span-8 grid gap-5">
+          <div class="card p-7 md:p-9">
+            <h3 class="h5 mb-3">We build, we don't advise.</h3>
+            <p class="text-muted text-body">A Sahem engagement ends with a deployed system inside your institution. Not a slide deck, not a report.</p>
+          </div>
+          <div class="card p-7 md:p-9">
+            <h3 class="h5 mb-3">Embedded, not remote.</h3>
+            <p class="text-muted text-body">Every engagement begins on-site. Operational realities cannot be discovered from a conference room overseas.</p>
+          </div>
+          <div class="card p-7 md:p-9">
+            <h3 class="h5 mb-3">Earn the next phase.</h3>
+            <p class="text-muted text-body">We scope deliberately. Discovery earns a pilot. A pilot earns a platform. A platform earns ongoing stewardship. No oversold engagements.</p>
+          </div>
+          <div class="card p-7 md:p-9">
+            <h3 class="h5 mb-3">Institutional, not individual.</h3>
+            <p class="text-muted text-body">Our systems must survive staff rotation and leadership change. We design for the institution, not for the person who signed the contract.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="section pt-0">
+    <div class="container-x">
+      <div class="grid lg:grid-cols-12 gap-12">
+        <div class="lg:col-span-4">
+          <div class="pill mb-5">Founders</div>
+          <h2 class="h3">A focused team.</h2>
+          <p class="text-muted text-body mt-5">Two founders. Delivery teams convened around each engagement.</p>
+        </div>
+        <div class="lg:col-span-8 grid md:grid-cols-2 gap-5">
+          <div class="card p-7 md:p-9">
+            <h3 class="h5 mb-2">Melusi Ndoro</h3>
+            <p class="text-xs-eyebrow text-dim mb-4">Founder</p>
+            <p class="text-muted text-body">Leads engagement design, sovereign-client work, and the Sahem Method. Background spanning operational systems delivery into constrained public-sector environments.</p>
+          </div>
+          <div class="card p-7 md:p-9">
+            <h3 class="h5 mb-2">Ahmed Osman</h3>
+            <p class="text-xs-eyebrow text-dim mb-4">Co-Founder &amp; Chief Technologist</p>
+            <p class="text-muted text-body">Leads the engineering of ReserveOS and platform delivery. Former JPMorgan software engineer, Imperial College London Computer Science.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRACK RECORD -->
+  <section class="section pt-0">
+    <div class="container-x">
+      <div class="card p-8 md:p-14">
+        <div class="grid lg:grid-cols-12 gap-10 items-center">
+          <div class="lg:col-span-7">
+            <div class="pill pill-soft mb-5 w-fit">First delivered engagement</div>
+            <h2 class="h3 mb-5">WildMotion at Zimbabwe Parks and Wildlife.</h2>
+            <p class="text-muted text-body mb-8 max-w-xl">Our first delivered engagement is WildMotion — an operational intelligence system across a national ranger network, in active use today. It is the proof point we built the rest of the practice around.</p>
+            <a href="/case-study/wildmotion/" class="btn btn-outline">Read case study</a>
+          </div>
+          <div class="lg:col-span-5">
+            <img src="https://raw.githubusercontent.com/theshumba/sahem-img/main/hwange.jpg" alt="Hwange" class="w-full rounded-2xl object-cover h-72 md:h-96" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="container-x pb-20">
+    <div class="hero-card hero-pad text-center dot-bg">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="h2">Considering an engagement?</h2>
+        <p class="text-lead text-muted mt-6 max-w-xl mx-auto">Start with a ten-day Operational Discovery. We will tell you whether we are the right team for the work.</p>
+        <a href="/contact/" class="btn btn-primary mt-10">Talk to Sahem</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container-x py-16">
+      <div class="grid md:grid-cols-12 gap-10 md:gap-12">
+        <div class="md:col-span-5">
+          <a href="/" class="nav-logo">Sahem Strategy</a>
+          <p class="text-muted text-body mt-4 max-w-sm">Sovereign operational intelligence.</p>
+        </div>
+        <div class="md:col-span-3">
+          <p class="text-xs-eyebrow text-dim mb-4">Sitemap</p>
+          <div class="flex flex-col gap-3">
+            <a href="/service/">Services</a>
+            <a href="/case-study/">Case Studies</a>
+            <a href="/about/">About</a>
+            <a href="/contact/">Contact</a>
+          </div>
+        </div>
+        <div class="md:col-span-4">
+          <p class="text-xs-eyebrow text-dim mb-4">Legal</p>
+          <div class="flex flex-col gap-3"><a href="/privacy/">Privacy</a></div>
+        </div>
+      </div>
+      <div class="divider my-10"></div>
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-3">
+        <p class="text-dim text-sm-body">© 2026 Sahem Strategy. All rights reserved.</p>
+        <p class="text-dim text-sm-body">Operating from Chesham, UK · Delivery teams ready for Riyadh &amp; Madinah.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/script.js" defer></script>
+</body>
+</html>

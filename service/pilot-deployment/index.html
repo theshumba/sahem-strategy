@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pilot Deployment — Sahem Strategy</title>
+  <meta name="description" content="Eight to twelve weeks. We deploy Sahem ReserveOS configured to one reserve, division, or operational layer — a working system inside your institution." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { 'sahem-green': '#0F3D3A', 'sahem-lime': '#C8F8A9', charcoal: '#0E100F', graphite: '#161A18', moss: '#2F3126', olive: '#BBC1A7', ivory: '#F9FFE5', bone: '#F5F2EB' }, fontFamily: { serif: ['Fraunces', 'Georgia', 'serif'], sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230F3D3A'/%3E%3Cpath d='M11 21l5-12 5 12-5-4-5 4z' fill='%23C8F8A9'/%3E%3C/svg%3E" />
+</head>
+<body class="bg-charcoal text-bone">
+
+  <header class="nav">
+    <div class="container-x flex items-center justify-between py-5">
+      <a href="/" class="nav-logo">Sahem Strategy</a>
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/service/" class="nav-link active">Services</a>
+        <a href="/case-study/" class="nav-link">Case Studies</a>
+        <a href="/about/" class="nav-link">About</a>
+        <a href="/contact/" class="nav-link">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="/contact/" class="btn btn-primary hidden md:inline-flex">Get started</a>
+        <button id="nav-open" class="md:hidden text-bone p-1" aria-label="Open menu">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div id="mobile-menu">
+    <button id="nav-close" class="absolute top-5 right-5 text-bone p-1" aria-label="Close menu">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M6 18L18 6"/></svg>
+    </button>
+    <a href="/" class="nav-link">Home</a>
+    <a href="/service/" class="nav-link">Services</a>
+    <a href="/case-study/" class="nav-link">Case Studies</a>
+    <a href="/about/" class="nav-link">About</a>
+    <a href="/contact/" class="nav-link">Contact</a>
+    <a href="/contact/" class="btn btn-primary mt-10 self-start">Get started</a>
+  </div>
+
+  <section class="container-x mt-6">
+    <div class="hero-card hero-pad dot-bg">
+      <div class="max-w-4xl">
+        <a href="/service/" class="text-xs-eyebrow text-dim hover:text-bone mb-6 inline-flex items-center gap-2">← All services</a>
+        <div class="pill mb-7 mt-4">Service · Phase 2</div>
+        <h1 class="h1">Pilot Deployment.</h1>
+        <p class="text-lead text-muted mt-7 max-w-2xl">Eight to twelve weeks. We deploy Sahem ReserveOS configured to one reserve, division, or operational layer. A working system inside your institution at the end of the engagement.</p>
+        <div class="flex flex-wrap gap-2 mt-8">
+          <span class="pill">8–12 weeks</span>
+          <span class="pill">ReserveOS deployed</span>
+          <span class="pill">Single division</span>
+        </div>
+        <a href="/contact/" class="btn btn-primary mt-10">Get started</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container-x">
+      <div class="grid lg:grid-cols-12 gap-12">
+        <div class="lg:col-span-5">
+          <img src="https://raw.githubusercontent.com/theshumba/sahem-service-images/main/2-pilot-deployment.jpg" alt="Pilot Deployment" class="w-full rounded-3xl object-cover h-full max-h-[640px]" loading="lazy" />
+        </div>
+        <div class="lg:col-span-7 service-body">
+          <div class="pill mb-6">Benefit</div>
+          <h2>A proof-of-system inside your operation, not a prototype on a slide.</h2>
+          <p>A Pilot Deployment is the first time your agency runs on a Sahem system. We scope it deliberately small — one reserve, one division, one operational layer — so it ships, lands, and earns the second engagement.</p>
+          <p>We deploy ReserveOS configured to your agency's reality. We install it on your field staff's phones, train rangers and supervisors, build the dashboards your leadership actually needs, and stand the system up inside your institution.</p>
+          <ul>
+            <li>Sahem ReserveOS configured for one operational scope</li>
+            <li>Field app, central database, leadership dashboards</li>
+            <li>On-the-ground training for rangers, supervisors, IT</li>
+            <li>Working system at the end of the engagement</li>
+            <li>SAR 250,000–500,000, eight to twelve weeks</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-x pb-10">
+    <div class="card p-8 md:p-14">
+      <svg width="48" height="40" viewBox="0 0 48 40" fill="none" class="mb-7" aria-hidden="true">
+        <path d="M0 40V24C0 10.745 9.851 0 22 0v8C13.716 8 7 15.163 7 24h7v16H0zm26 0V24C26 10.745 35.851 0 48 0v8c-8.284 0-15 7.163-15 16h7v16H26z" fill="#C8F8A9" fill-opacity="0.3"/>
+      </svg>
+      <p class="font-serif text-2xl md:text-3xl leading-snug text-bone max-w-4xl">A pilot is not a prototype. We never ship something that does not actually run. By the end of the engagement, your rangers are logging incidents on phones and your leadership is looking at the same data — in real time — for the first time.</p>
+      <div class="mt-8 pt-8 border-t border-bone/10">
+        <p class="text-body">Ahmed Osman</p>
+        <p class="text-muted text-sm-body">Co-Founder &amp; Chief Technologist, Sahem Strategy</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-x pb-20">
+    <div class="hero-card hero-pad text-center dot-bg">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="h2">Have a single division ready for a pilot?</h2>
+        <p class="text-lead text-muted mt-6 max-w-xl mx-auto">Start with Operational Discovery. A pilot is the second step, not the first.</p>
+        <a href="/contact/" class="btn btn-primary mt-10">Talk to Sahem</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container-x py-16">
+      <div class="grid md:grid-cols-12 gap-10 md:gap-12">
+        <div class="md:col-span-5">
+          <a href="/" class="nav-logo">Sahem Strategy</a>
+          <p class="text-muted text-body mt-4 max-w-sm">Sovereign operational intelligence.</p>
+        </div>
+        <div class="md:col-span-3">
+          <p class="text-xs-eyebrow text-dim mb-4">Sitemap</p>
+          <div class="flex flex-col gap-3">
+            <a href="/service/">Services</a>
+            <a href="/case-study/">Case Studies</a>
+            <a href="/about/">About</a>
+            <a href="/contact/">Contact</a>
+          </div>
+        </div>
+        <div class="md:col-span-4">
+          <p class="text-xs-eyebrow text-dim mb-4">Legal</p>
+          <div class="flex flex-col gap-3"><a href="/privacy/">Privacy</a></div>
+        </div>
+      </div>
+      <div class="divider my-10"></div>
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-3">
+        <p class="text-dim text-sm-body">© 2026 Sahem Strategy. All rights reserved.</p>
+        <p class="text-dim text-sm-body">Operating from Chesham, UK · Delivery teams ready for Riyadh &amp; Madinah.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/script.js" defer></script>
+</body>
+</html>

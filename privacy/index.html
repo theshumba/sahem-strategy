@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy — Sahem Strategy</title>
+  <meta name="description" content="How Sahem Strategy collects, uses, and stores personal data." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { 'sahem-green': '#0F3D3A', 'sahem-lime': '#C8F8A9', charcoal: '#0E100F', graphite: '#161A18', moss: '#2F3126', olive: '#BBC1A7', ivory: '#F9FFE5', bone: '#F5F2EB' }, fontFamily: { serif: ['Fraunces', 'Georgia', 'serif'], sans: ['Inter', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230F3D3A'/%3E%3Cpath d='M11 21l5-12 5 12-5-4-5 4z' fill='%23C8F8A9'/%3E%3C/svg%3E" />
+</head>
+<body class="bg-charcoal text-bone">
+
+  <header class="nav">
+    <div class="container-x flex items-center justify-between py-5">
+      <a href="/" class="nav-logo">Sahem Strategy</a>
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/service/" class="nav-link">Services</a>
+        <a href="/case-study/" class="nav-link">Case Studies</a>
+        <a href="/about/" class="nav-link">About</a>
+        <a href="/contact/" class="nav-link">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="/contact/" class="btn btn-primary hidden md:inline-flex">Get started</a>
+        <button id="nav-open" class="md:hidden text-bone p-1" aria-label="Open menu">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div id="mobile-menu">
+    <button id="nav-close" class="absolute top-5 right-5 text-bone p-1" aria-label="Close menu">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M6 18L18 6"/></svg>
+    </button>
+    <a href="/" class="nav-link">Home</a>
+    <a href="/service/" class="nav-link">Services</a>
+    <a href="/case-study/" class="nav-link">Case Studies</a>
+    <a href="/about/" class="nav-link">About</a>
+    <a href="/contact/" class="nav-link">Contact</a>
+    <a href="/contact/" class="btn btn-primary mt-10 self-start">Get started</a>
+  </div>
+
+  <section class="container-x mt-6">
+    <div class="hero-card hero-pad dot-bg">
+      <div class="max-w-3xl">
+        <div class="pill mb-8">Legal</div>
+        <h1 class="h2">Privacy Policy.</h1>
+        <p class="text-lead text-muted mt-6 max-w-2xl">Last updated 18 May 2026.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container-x">
+      <article class="service-body max-w-3xl mx-auto">
+        <h2>Who we are.</h2>
+        <p>Sahem Strategy (&ldquo;Sahem&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) is a consulting practice operating from the United Kingdom and providing operational intelligence services to government agencies. For the purposes of UK GDPR, Sahem Strategy is the data controller for any personal data collected through this website.</p>
+
+        <h2>What we collect.</h2>
+        <p>We collect personal data only when you choose to provide it — typically through the contact form on this site. That data is limited to your name, organisation, email address, country, and the contents of any message you write to us.</p>
+        <p>We do not currently use cookies or analytics on this site. We do not track individual visitors. We do not buy or sell personal data.</p>
+
+        <h2>How we use it.</h2>
+        <p>We use the information you provide solely to respond to your enquiry, to evaluate a potential engagement, and to communicate with you about Sahem services you have expressed interest in. We do not send marketing emails unless you explicitly request to be added to a Sahem mailing list.</p>
+
+        <h2>Where we store it.</h2>
+        <p>Form submissions are routed via Formspree (formspree.io) and stored alongside our standard email infrastructure. Both providers are GDPR-compliant. We retain enquiry data only as long as the engagement conversation is active, plus a reasonable archival period thereafter.</p>
+
+        <h2>Your rights.</h2>
+        <p>Under UK GDPR you have the right to request access to your personal data, request correction or deletion, and object to our processing of it. To exercise any of these rights, email <a href="mailto:hello@sahemstrategy.com" class="underline">hello@sahemstrategy.com</a>. We respond within thirty days.</p>
+
+        <h2>Changes.</h2>
+        <p>We may update this policy from time to time. Material changes will be communicated by updating the "Last updated" date above. If you have given us personal data and the changes are material to that data, we will email you.</p>
+
+        <h2>Contact.</h2>
+        <p>For privacy enquiries or to exercise your data rights, contact us at <a href="mailto:hello@sahemstrategy.com" class="underline">hello@sahemstrategy.com</a>.</p>
+      </article>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container-x py-16">
+      <div class="grid md:grid-cols-12 gap-10 md:gap-12">
+        <div class="md:col-span-5">
+          <a href="/" class="nav-logo">Sahem Strategy</a>
+          <p class="text-muted text-body mt-4 max-w-sm">Sovereign operational intelligence.</p>
+        </div>
+        <div class="md:col-span-3">
+          <p class="text-xs-eyebrow text-dim mb-4">Sitemap</p>
+          <div class="flex flex-col gap-3">
+            <a href="/service/">Services</a>
+            <a href="/case-study/">Case Studies</a>
+            <a href="/about/">About</a>
+            <a href="/contact/">Contact</a>
+          </div>
+        </div>
+        <div class="md:col-span-4">
+          <p class="text-xs-eyebrow text-dim mb-4">Legal</p>
+          <div class="flex flex-col gap-3"><a href="/privacy/">Privacy</a></div>
+        </div>
+      </div>
+      <div class="divider my-10"></div>
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-3">
+        <p class="text-dim text-sm-body">© 2026 Sahem Strategy. All rights reserved.</p>
+        <p class="text-dim text-sm-body">Operating from Chesham, UK · Delivery teams ready for Riyadh &amp; Madinah.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/script.js" defer></script>
+</body>
+</html>
